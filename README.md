@@ -98,7 +98,7 @@ qchat
 - `src/main.rs`: Entry point that comman-line-arguments, logging setup, and server initialization 
 - `src/operator.rs` Implementation of the PostgreSQL with database interaction tools.
 
-## Too; Implementation in `operator.rs` 
+## Tool Implementation in `operator.rs` 
 The server implements three main tools using the tool artribute from the RMCP framework: 
 
 1. List Tables: 
