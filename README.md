@@ -30,6 +30,8 @@ cd postgresql-mcp-server
 ```bash 
 cargo build --release --bin postgresql_server
 ```
+<img width="765" alt="BUILD SUCCESSFUL" src="https://github.com/user-attachments/assets/305d1fd2-a4c9-4b2c-89a7-34c6d1d8f4ac" />
+
 
 ## Usage 
 ### Running the Server 
@@ -77,12 +79,20 @@ vim ~/.aws/amazonq/mcp.json
 ```bash
 qchat
 ```
+<img width="673" alt="image" src="https://github.com/user-attachments/assets/f41a16e4-942b-41cb-867a-77c68c0b58dd" />
+
 - Ask Amazon Q to list tables in the database 
 `Can you list all tables in my PostgreSQL database using the postgres operator?`
+<img width="691" alt="image" src="https://github.com/user-attachments/assets/f93abdb6-72a7-4f16-a317-ba68eed488b9" />
+
 - Try asking for schema of specific table: 
 `What columns are in the student table? `
+<img width="814" alt="image" src="https://github.com/user-attachments/assets/dac5a65b-e1a1-4a82-96de-3caf9a0abd86" />
+
+
 - Execute a SQL query: 
 `List 100 students sorted by name.`
+<img width="716" alt="image" src="https://github.com/user-attachments/assets/0c49c9c8-580d-426b-bdd9-ed12b21d24eb" />
 
 ## Project Structure 
 - `src/main.rs`: Entry point that comman-line-arguments, logging setup, and server initialization 
